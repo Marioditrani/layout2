@@ -364,7 +364,9 @@ transition: opacity 1s linear 2s;
 @media (max-width: 600px) {
   
   header{
+    padding: 4rem 1!important;
     .left-header{
+      
       .logo{
         width: 150px;
       }

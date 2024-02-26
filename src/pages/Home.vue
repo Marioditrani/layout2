@@ -166,6 +166,7 @@ main{
                 background-color: $c-paragrafo;
                 border-radius: 20px;
                 padding: 1rem;
+                margin: 5rem 0;
             }
         }
         .right{
@@ -222,6 +223,7 @@ main{
             color: white;
             .left-bottom{
                 width: 50%;
+                
                 h3{
                     padding: .5rem;
                     font-size: 22px;
@@ -245,6 +247,7 @@ main{
                 flex-direction: column;
                 align-items: center;
                 gap: 1rem;
+                padding-bottom: 1rem;
                 h3{
                     text-align: center;
                     padding: .5rem;
@@ -271,6 +274,7 @@ main{
 @media (max-width: 1600px) {
     .main{
         flex-direction: column;
+        overflow: auto;
         .left, .right{
             width: 100%!important;
         }
@@ -287,6 +291,26 @@ main{
                 justify-content: center  !important;
                 gap: 20px;
             }
+        }
+    }
+}
+@media (max-width: 500px) {
+    .main{
+        
+        .left{
+            p{
+                margin: 14rem 0!important;
+            }
+            
+        }
+        
+    }
+    .bottom-right{
+        flex-direction: column!important;
+        height: 100%!important;
+
+        .left-bottom{
+            width: 100%!important;
         }
     }
 }
